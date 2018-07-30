@@ -22,7 +22,7 @@ public class Selenium_Test {
   public void beforeClass() {
 	  //System.setProperty("", arg1)
 	  driver= new FirefoxDriver();
-	  driver.get("http://ec2-18-216-135-250.us-east-2.compute.amazonaws.com:8090/TestWebapp-1.0/");
+	  driver.get("http://ec2-18-216-135-250.us-east-2.compute.amazonaws.com:8090/TestWebapp");
 	  
   }
 
